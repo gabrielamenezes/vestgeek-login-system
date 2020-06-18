@@ -5,22 +5,26 @@
     align-items: center;
     width: 60vw;
     height: 60vh;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.753);
 }
 
 .divison {
     width: 50%;
     height: 100%;
     display: flex;
+    
+}
+
+.first-div {
+    background-color: var(--azulescuro);
     justify-content: center;
     align-items: center;
 }
 
-.first-div {
-    background-color: var(--branco);
-}
-
 .second-div {
-    background-color: var(--azulescuro);
-    border-left: 1px solid var(--preto);
+    background-color: var(--branco);
+    border-left: 1px solid #000000c7;
+    justify-content: center;
+    flex-direction: column;
 }
 

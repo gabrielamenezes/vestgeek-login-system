@@ -4,7 +4,9 @@ body {
     justify-content: center;
     align-items: center;
     width: 100vw;
+    font-family: helvetica, arial, sans-serif;
     height: 100vh;
+    color: var(--preto);
 }
 
 :root {

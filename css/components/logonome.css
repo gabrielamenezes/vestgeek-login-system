@@ -1,0 +1,11 @@
+.block-fig {
+    box-sizing: border-box;
+    width: 100%;
+    align-self: center;
+    height: 10%;
+}
+.logonome {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
