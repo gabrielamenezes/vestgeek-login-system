@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/components/logo.css">
     <link rel="stylesheet" href="css/components/logonome.css">
     <link rel="stylesheet" href="css/containers/login-inputs.css">
+    <link rel="stylesheet" href="css/components/btn-login.css">
 </head>
 <body id="corpo">
     <section class="block-sec">
@@ -23,8 +24,11 @@
                 <img src="img/logonome.png" alt="Logomarca" class="logonome">
             </div>
             <div class="login-inputs">
-                <input type="email" required autofocus class="input">
-                <input type="email" required autofocus class="input">
+                <label for="email">Email:</label>
+                <input type="email" required autofocus class="input" name="email">
+                <label for="password">Senha:</label>
+                <input type="password" required class="input" name="password">
+                <input type="submit" class="btn-login" value="Entrar">
             </div>
         </div>
     </section>
