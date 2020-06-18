@@ -1,0 +1,26 @@
+.block-sec {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 60vh;
+}
+
+.divison {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-div {
+    background-color: var(--branco);
+}
+
+.second-div {
+    background-color: var(--azulescuro);
+    border-left: 1px solid var(--preto);
+}
+

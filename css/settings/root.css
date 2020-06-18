@@ -1,0 +1,14 @@
+body {
+    background: url(../../img/background.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+:root {
+    --azulescuro: #4284f3;
+    --branco: #ffffff;
+    --preto: #000000;
+}
