@@ -1,0 +1,34 @@
+@media (min-width: 318px) and (max-width: 530px) {
+    #corpo > .block-sec {
+        height: 80vh;
+        width: 100vw;
+    }
+    #corpo > .block-sec > .first-div {
+        display: none;
+    }
+
+    #corpo > .block-sec > .second-div {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 531px) and (max-width: 800px) {
+    #corpo > .block-sec {
+        height: 80vh;
+        width: 100vw;
+    }
+    .block-sec > .second-div > .block-fig > .logonome {
+        width: 200px;
+    }
+
+    .block-sec > .second-div > .login-inputs {
+        margin-top: 30px;
+    }
+}
+
+@media(min-width: 801px) {
+    .block-sec > .second-div > .login-inputs {
+        margin-top: 1rem;
+    }
+}

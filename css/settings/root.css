@@ -11,6 +11,8 @@ body {
 
 :root {
     --azulescuro: #4284f3;
+    --azulbg:#4283f3cb;
     --branco: #ffffff;
     --preto: #000000;
+    --azulclaro: #7ea4e4;
 }

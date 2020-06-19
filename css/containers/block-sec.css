@@ -7,7 +7,9 @@
     height: 60vh;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.753);
 }
-
+.logo-mobile {
+    display: none;
+}
 .divison {
     width: 50%;
     height: 100%;

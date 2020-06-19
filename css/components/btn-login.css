@@ -1,8 +1,21 @@
 
 .btn-login {
+    cursor: pointer;
     display: block;
-    width: 120px;
+    width: 100px;
     padding: 8px;
     margin-top: 5px;
     border: 1px solid #312d2dce;
+    box-shadow: 1px 1px 0.5px #727272;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+.btn-login:hover {
+    background: linear-gradient(var(--azulbg), var(--azulclaro));
+    color: #ffffff;
+}
+
+.btn-login:active {
+    box-shadow: none;
 }
