@@ -2,12 +2,14 @@
 .btn-login {
     cursor: pointer;
     display: block;
-    width: 100px;
+    width: 150px;
     padding: 8px;
-    margin-top: 5px;
+    margin-top: 20px;
     border: 1px solid #312d2dce;
     box-shadow: 1px 1px 0.5px #727272;
     border-radius: 6px;
+    background: #4284f3;
+    color: #fff;
     text-transform: uppercase;
 }
 
