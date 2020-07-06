@@ -3,6 +3,7 @@
 }
 body {
     font-family: 'Raleway', sans-serif;
+    overflow: hidden;
 }
 .wrap-content {
     display: flex;
@@ -42,7 +43,7 @@ body {
 }
 .svg-block img {
     display: block;
-    width: 460px;
+    width: 420px;
     margin: 0 auto
 }
 
@@ -59,10 +60,10 @@ body {
     width: 100%;
     max-width: 990px;
     margin: 0 auto;
-    padding: 3em 0;
+    padding-top: 3em;
 }
 .container img {
-    width: 200px;
+    width: 300px;
     display: block;
     margin: 0 auto;
 }
@@ -81,21 +82,59 @@ body {
 form {
     margin-top: 20px;
 }
+
 fieldset {
     border: 2px #222222 solid;
     padding: 0.5em 0.5em;
+    margin: 10px 0;
+}
+.form-info {
+    font-size: 0.9rem;
+    padding: 0.5em;
+    color: #4284f3;
 }
 form fieldset label {
     display: flex;
+    margin-top: 10px;
 }
 form fieldset input {
     padding: 0.5em 0.5em;
     border-radius: 10px;
     margin: 10px 0;
     border: 1px solid #cccccc;
+    font-size: 1rem;
+}
+
+.input {
+    width: 50%;
+}
+
+.input:focus {
+    border: 1px solid #222222;
 }
 .radio_label {
     display: inline-block;
     margin-right: 5px;
 }
 
+.select {
+    padding: 0.5em 0.5em;
+}
+
+#btn-cadastrar {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    background-color: #4284f3;
+    padding: 0.8rem;
+    cursor: pointer;
+    color: #ffffff;
+    outline: none;
+    text-align: center;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+#btn-cadastrar:hover {
+    background: linear-gradient(120deg, #4283f3cb, #7fb1f7);
+}

@@ -7,7 +7,10 @@
     <title>Vestgeek - Cadastro </title>
     <link rel="stylesheet" href="css/generic/reset.css">
     <link rel="stylesheet" href="css/style-cadastro.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -15,7 +18,7 @@
         <aside class="board-sign">
             <div class="account-block">
                 <h2>JÁ TEM CADASTRO?</h2>
-                <a href="">ENTRAR</a>
+                <a href="index.html">ENTRAR</a>
             </div>
             <div class="svg-block">
                 <img src="img/undraw_book_reading_kx9s.svg" alt="">
@@ -30,15 +33,60 @@
                 <form action="">
                     <fieldset>
                         <legend>Informações Pessoais</legend>
+                        <p class="form-info">Preencha todos os campos abaixo</p>
                         <label for="name">Nome Completo</label>
-                        <input type="text" id="name">
+                        <input type="text" id="name" class="input" placeholder="Exemplo: Maria Clara Souza" autofocus required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="input" placeholder="Exemplo: email@gmail.com" required>
                         <p>Sexo: </p>
                         <input type="radio" id="male" name="genero">
                         <label for="male" class="radio_label">Masculino</label>
                         <input type="radio" id="female" name="genero">
                         <label for="female" class="radio_label">Feminino</label>
-                        
+                        <label for="state">Estado: </label>
+                        <select name="state" id="state" class="select" required>
+                            <option value="1" selected>Minas Gerais</option>
+                            <option value="2">Minas Gerais</option>
+                            <option value="3">São Paulo</option>
+                            <option value="4">Rio de Janeiro</option>
+                            <option value="5">Goiás</option>
+                            <option value="6">Destrito Federal</option>
+                            <option value="7">Espírito Santo</option>
+                            <option value="8">Bahia</option>
+                            <option value="9">Santa Catarina</option>
+                            <option value="10">Paraná</option>
+                            <option value="11">Rio Grande do Sul</option>
+                            <option value="12">Rio Grande do Norte</option>
+                            <option value="13">Ceará</option>
+                            <option value="14">Pernambuco</option>
+                            <option value="15">Amazonas</option>
+                            <option value="16">Pará</option>
+                            <option value="17">Maranhão</option>
+                            <option value="18">Piauí</option>
+                            <option value="19">Paraíba</option>
+                            <option value="20">Sergipe</option>
+                            <option value="21">Mato Grosso</option>
+                            <option value="22">Mato Grosso do Sul</option>
+                            <option value="23">Rondônia</option>
+                            <option value="24">Alagoas</option>
+                            <option value="25">Tocantins</option>
+                            <option value="26">Roraima</option>
+                            <option value="27">Acre</option>
+                        </select>
+                        <label for="password">Senha </label>
+                        <input type="password" id="password" class="input" required>
                     </fieldset>
+
+                    <fieldset>
+                        <legend>Escolaridade</legend>
+                        <select name="" id="" class="select" required>
+                            <option value="1" selected>Ensino Médio em Escola Pública</option>
+                            <option value="2">Ensino Médio em Escola Privada</option>
+                            <option value="3">Ensino Superior</option>
+                            <option value="4">Ensino Médio Incompleto</option>
+                        </select>
+                    </fieldset>
+                    <input type="submit" value="CADASTRAR" class="input" id="btn-cadastrar">
                 </form>
             </div>
         </div>
