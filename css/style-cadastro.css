@@ -1,0 +1,59 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.wrap-content {
+    display: flex;
+}
+.board-sign {
+    width: 50%;
+    height: 100vh;
+    background: linear-gradient(125deg, #4283f3cb, #4284f3);
+    color: #ffffff;
+}
+
+.account-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    padding-top: 3em;
+}
+
+.account-block h2 {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.signup_block {
+    width: 100%;
+    
+}
+.container {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    padding: 3em 0;
+}
+.container img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.signup_block h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.title-wrap::after {
+    display: block;
+    content: '';
+    width: 80px;
+    height: 3px;
+    background-color: #4284f3;
+}
+
+form {
+    margin-top: 20px;
+}
+fieldset {
+    border: 2px #222222 solid;
+}
