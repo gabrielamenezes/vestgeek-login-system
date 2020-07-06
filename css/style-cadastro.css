@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Raleway', sans-serif;
 }
@@ -17,7 +20,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 40%;
-    box-sizing: border-box;
     padding-top: 3em;
 }
 .account-block a {
@@ -26,6 +28,7 @@ body {
     border: 1px solid #ffffff;
     padding: 1.4rem;
     width: 160px;
+    outline: none;
     text-align: center;
     border-radius: 40px;
     text-decoration: none;
@@ -34,7 +37,7 @@ body {
 
 .account-block a:hover {
     background-color: #ffffff;
-    background: linear-gradient(125deg, #4f84dfcb, #4284f3);
+    color: #222222;
     text-decoration: underline;
 }
 .svg-block img {
@@ -78,4 +81,19 @@ form {
 }
 fieldset {
     border: 2px #222222 solid;
+    padding: 0.5em 0.5em;
 }
+form fieldset label {
+    display: flex;
+}
+form fieldset input {
+    padding: 0.5em 0.5em;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+}
+.radio_label {
+    display: inline-block;
+    margin-right: 5px;
+}
+
