@@ -13,10 +13,32 @@ body {
 
 .account-block {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50%;
+    height: 40%;
+    box-sizing: border-box;
     padding-top: 3em;
+}
+.account-block a {
+    display: block;
+    margin-top: 30px;
+    border: 1px solid #ffffff;
+    padding: 1.4rem;
+    width: 160px;
+    text-align: center;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.account-block a:hover {
+    background-color: #ffffff;
+    background: linear-gradient(125deg, #4f84dfcb, #4284f3);
+    text-decoration: underline;
+}
+.svg-block img {
+    width: 500px;
 }
 
 .account-block h2 {
