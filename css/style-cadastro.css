@@ -3,16 +3,16 @@
 }
 body {
     font-family: 'Raleway', sans-serif;
-    overflow: hidden;
 }
 .wrap-content {
     display: flex;
 }
 .board-sign {
-    width: 50%;
+    width: 30%;
     height: 100vh;
     background: linear-gradient(125deg, #4283f3cb, #4284f3);
     color: #ffffff;
+    position: fixed;
 }
 
 .account-block {
@@ -43,7 +43,7 @@ body {
 }
 .svg-block img {
     display: block;
-    width: 420px;
+    width: 350px;
     margin: 0 auto
 }
 
@@ -54,13 +54,14 @@ body {
 
 .signup_block {
     width: 100%;
+    margin-left: 30%;
     
 }
 .container {
     width: 100%;
     max-width: 990px;
     margin: 0 auto;
-    padding-top: 3em;
+    padding: 3em 3em;
 }
 .container img {
     width: 300px;
