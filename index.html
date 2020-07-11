@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,14 +28,17 @@
             <div class="block-fig">
                 <img src="img/logonome.png" alt="Logomarca" class="logonome">
             </div>
-            <div class="login-inputs">
-                <input type="email" required autofocus class="input" id="email" placeholder="e-mail">
-                <input type="password" required class="input" id="password" placeholder="senha">
-                <p class="signup-txt">Não tem uma conta ainda? <a href="cadastro.html" class="signup-link">Clique aqui</a> e cadastre-se</p>
-                <input type="submit" class="btn-login" value="Entrar">
-            </div>
+            <form action="" method="POST">
+                <div class="login-inputs">
+                    <input type="email" required autofocus class="input" id="email" placeholder="e-mail" name="email">
+                    <input type="password" required class="input" id="password" placeholder="senha">
+                    <p class="signup-txt" name="senha">Não tem uma conta ainda? <a href="cadastro.html" class="signup-link">Clique aqui</a> e cadastre-se</p>
+                    <input type="submit" class="btn-login" value="Entrar">
+                </div>
+            </form>    
         </div>
     </section>
     <script src="js/app.js"></script>
 </body>
+
 </html>
